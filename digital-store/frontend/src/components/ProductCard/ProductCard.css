@@ -1,0 +1,23 @@
+.product-card {
+  color: var(--dark-gray-2);
+  text-decoration: none;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 292 / 321;
+  object-fit: cover;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--dark-gray);
+}
+
+.old-price {
+  font-size: 24px;
+  color: var(--light-gray);
+  text-decoration: line-through;
+  margin-right: 10px;
+}

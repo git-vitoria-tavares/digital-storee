@@ -1,0 +1,20 @@
+.product-options button {
+  margin: 0 10px 10px 0;
+  border: 1px solid var(--light-gray-2);
+  font-size: 24px;
+  color: var(--dark-gray-2);
+}
+
+.product-options .square {
+  min-width: 46px;
+  height: 46px;
+}
+
+.product-options .circle {
+  width: 31px;
+  height: 31px;
+}
+
+.product-options .selected {
+  border: 2px solid var(--primary);
+}

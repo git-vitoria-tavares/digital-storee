@@ -1,0 +1,23 @@
+.section {
+  margin-bottom: 60px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header.center {
+  justify-content: center;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  color: var(--dark-gray-2);
+}
+
+.section-header a {
+  font-size: 18px;
+  color: var(--primary);
+}

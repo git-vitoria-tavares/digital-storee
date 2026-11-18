@@ -1,0 +1,32 @@
+.footer {
+  background: var(--dark-gray);
+  color: var(--white);
+  padding: 50px 20px 20px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-about {
+  max-width: 300px;
+}
+
+.footer a {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-about a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-copy {
+  text-align: center;
+}

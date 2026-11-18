@@ -1,0 +1,11 @@
+.home-collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-collections img {
+  flex: 1;
+  min-width: 250px;
+  border-radius: 4px;
+}

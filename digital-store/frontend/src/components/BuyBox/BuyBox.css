@@ -1,0 +1,49 @@
+.buy-box h1 {
+  font-size: 32px;
+  color: var(--dark-gray);
+}
+
+.buy-box-reference {
+  font-size: 12px;
+  color: var(--dark-gray-3);
+}
+
+.buy-box-stars {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 14px;
+}
+
+.buy-box-rating {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.buy-box-price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.buy-box-old-price {
+  font-size: 16px;
+  color: var(--light-gray-2);
+  text-decoration: line-through;
+}
+
+.buy-box-description {
+  font-size: 14px;
+}
+
+.buy-box-button {
+  margin-top: 20px;
+  padding: 14px 60px;
+  border: none;
+  border-radius: 8px;
+  background: var(--warning);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+}

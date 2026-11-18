@@ -1,0 +1,29 @@
+.listing-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.listing-page main {
+  flex: 1;
+  min-width: 280px;
+}
+
+.listing-order {
+  display: block;
+  width: 308px;
+  height: 60px;
+  margin: 8px 0 24px;
+}
+
+.listing-filters {
+  width: 308px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: var(--white);
+}
+
+.listing-filters hr {
+  border: none;
+  border-top: 1px solid var(--light-gray-2);
+}
